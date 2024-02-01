@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:rgb(250 250 250);
+  /* color: rgb(101 163 13);  */
+}
+
+::selection {
+  background: rgb(101 163 13);
+}
+
+.degradedBlue {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 5px 0;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(39, 121, 87, 0.6) !important;
+}
+
+.slider-horizontal {
+  display: flex;
+  animation: swipe 5000ms linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
