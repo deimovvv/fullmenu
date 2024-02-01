@@ -4,6 +4,7 @@ import Image from "@/node_modules/next/image";
 /* import { BackgroundRadialLeft } from "../BackgroundRadialLeft/BackgroundRadialLeft"; */
 import { Reveal } from "../Reveal/Reveal";
 import { dataFeatures } from "./SectionCaractdata";
+
 /* import { bgWhite } from "@/../../../node_modules/colors/index"; */
 
 

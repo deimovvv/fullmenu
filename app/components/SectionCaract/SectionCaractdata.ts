@@ -1,4 +1,5 @@
 
+import { SectionCaractData } from './SectionCaract.types';
 
 export const dataFeatures: SectionCaractData = [
     {
