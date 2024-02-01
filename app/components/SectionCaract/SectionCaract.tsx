@@ -1,3 +1,4 @@
+
 import Link  from "@/node_modules/next/link";
 import Image from "@/node_modules/next/image";
 /* import { BackgroundRadialLeft } from "../BackgroundRadialLeft/BackgroundRadialLeft"; */
@@ -28,7 +29,7 @@ export function SectionCaract(){
             </div>
 
             <div className="grid items-center py-5 md:p-8">
-                {dataFeatures.map(( icon,title, description}) =>(
+                {dataFeatures.map(({icon,title, description}) =>(
                     <Reveal>
                         <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-blueRadialBlack">
                         <Image src={`/assets/${icon}.png`} alt={title} width={40} height={40} color={"bgwhite"} />
