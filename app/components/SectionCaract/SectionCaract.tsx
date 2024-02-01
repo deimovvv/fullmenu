@@ -9,7 +9,7 @@ import { dataFeatures } from "./SectionCaractdata";
 export function SectionCaract(){
     return(
         <div className="relative px-6 bg-zinc-900 py-20 md:py-10" id="features">
-          {/*   <BackgroundRadialLeft/> */}
+         
             <div className="grid max-w-5xl mx-auto md:grid-cols-2">
             <div>
                 <Reveal>
