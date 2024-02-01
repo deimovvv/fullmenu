@@ -48,7 +48,7 @@ if(isInView){
                 top: 4,
                 bottom:4,
                 left: 0,
-                rigth: 0,
+                right: 0,
                 background:"#439e6ag9", 
                 zIndex:20
             }}>
