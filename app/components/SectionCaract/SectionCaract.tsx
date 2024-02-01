@@ -1,9 +1,9 @@
 import Link  from "@/node_modules/next/link";
 import Image from "@/node_modules/next/image";
-import { BackgroundRadialLeft } from "../BackgroundRadialLeft/BackgroundRadialLeft";
+/* import { BackgroundRadialLeft } from "../BackgroundRadialLeft/BackgroundRadialLeft"; */
 import { Reveal } from "../Reveal/Reveal";
 import { dataFeatures } from "./SectionCaractdata";
-import { bgWhite } from "@/../../../node_modules/colors/index";
+/* import { bgWhite } from "@/../../../node_modules/colors/index"; */
 
 
 export function SectionCaract(){
