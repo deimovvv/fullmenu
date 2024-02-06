@@ -24,7 +24,7 @@ export function SectionCaract(){
                
                 <Reveal>
                   <div className="my-8">
-                    <Link href="#features" className="px-4 py-3 rounded-md bg-lime-500">Elige tu Estilo</Link>
+                    <Link href="#themes" className="px-4 py-3 rounded-md bg-lime-500 shadow-lg shadow-lime-400/40">Elige tu Estilo</Link>
                   </div>
                 </Reveal>
             </div>

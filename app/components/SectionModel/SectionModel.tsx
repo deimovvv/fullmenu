@@ -29,7 +29,7 @@ export function SectionModel(){
                    </p>
                    </Reveal>
                    <div className="my-8">
-                       <Link href="https://menu-coevo.vercel.app/" className="px-4 py-3 rounded-md bg-lime-500" target="blank">
+                       <Link href="https://menu-coevo.vercel.app/" className="px-4 py-3 rounded-md bg-lime-500 shadow-lg shadow-zinc-500/50" target="blank">
                             VER
                        </Link>
                    </div>
@@ -37,7 +37,7 @@ export function SectionModel(){
                <div>
                <MotionTransition className="flex items-center justify-center">
                    
-                   <Image src="/assets/cocinero.png" width={450} height={450} className="h-auto w-72 md:w-full" alt="cocinero" />
+                   <Image src="/assets/cocinero.png" width={450} height={400} className="h-auto w-72 md:w-full" priority={true} alt="cocinero" />
                   </MotionTransition>
                </div>
               
