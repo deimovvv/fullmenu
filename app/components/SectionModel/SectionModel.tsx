@@ -29,7 +29,7 @@ export function SectionModel(){
                    </p>
                    </Reveal>
                    <div className="my-8">
-                       <Link href="https://menu-coevo.vercel.app/" className="px-4 py-3 rounded-md bg-lime-500 shadow-lg shadow-zinc-500/50" target="blank">
+                       <Link href="https://menu.coevo-studio.com/" className="px-4 py-3 rounded-md bg-lime-500 shadow-lg shadow-zinc-500/50" target="blank">
                             VER
                        </Link>
                    </div>
